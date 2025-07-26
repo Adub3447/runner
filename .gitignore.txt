@@ -1,0 +1,78 @@
+# --- Standard Git ignores ---
+.DS_Store
+.vscode/
+.idea/
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+*.sln
+*.bak
+*.log
+*.tlog
+*.ipch
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.exp
+*.aps
+*.ncb
+*.res
+*.ilk
+*.sbr
+*.pch
+*.pki
+*.recipe
+*.vst
+*.target
+*.natvis
+*.uvproj
+*.kpf
+*.kfd
+*.pvs
+*.cache
+*.code-workspace
+*.vc.filters
+
+# --- Unreal Engine specific ignores ---
+# Binaries, Builds, Intermediate, Saved, DerivedDataCache are all generated files.
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Logs
+*.log
+
+# Unreal Engine project files that can be regenerated
+*.xcodeproj
+*.xcworkspace
+*.uproject.bak
+
+# Source control ignore for external editor tools (e.g., Rider)
+.Rider/
+
+# Cooked content
+CookedContent/
+
+# DDC files (may appear outside of DerivedDataCache)
+*.ddc
+
+# Plugin binaries and intermediates (if you are versioning plugins)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Exclude Visual Studio solution and project files IF you are regenerating them frequently
+# If you want to commit your .sln and .vcxproj files, comment these out:
+# *.sln
+# *.vcxproj
+# *.vcxproj.filters
+
+# Mac artifacts
+*.DS_Store
